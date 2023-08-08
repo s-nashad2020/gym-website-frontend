@@ -1,0 +1,148 @@
+.single-group-hero-section {
+  background-image: url("./img/background-image3.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  color: white;
+}
+
+.single-group-hero-section1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  padding: 50px;
+}
+
+.single-group-hero-section1 .hero-content1 {
+  width: 580px;
+  height: max-content;
+  padding: 20px;
+}
+
+.area-bar {
+  height: 30px;
+  width: 545px;
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 5px;
+}
+
+.strength-area-bar-filled {
+  width: 80%;
+  height: 30px;
+  background-color: var(--nv-primary-accent);
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.mindset-area-bar-filled {
+  width: 27%;
+  height: 30px;
+  background-color: var(--nv-primary-accent);
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.endurance-area-bar-filled {
+  width: 39%;
+  height: 30px;
+  background-color: var(--nv-primary-accent);
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.area-bar-filled {
+  width: 27%;
+  height: 30px;
+  background-color: var(--nv-primary-accent);
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.hero-content3 {
+  grid-column: 1 / 2 span;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: max-content;
+  height: max-content;
+  background-color: white;
+}
+
+.hero-content3 > img {
+  margin: 10px;
+}
+
+.single-group-hero-section2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  column-gap: 20px;
+  background-color: var(--nv-primary-accent);
+  color: white;
+  padding: 60px 20px;
+}
+
+.single-group-class-timings {
+  height: max-content;
+  width: 360px;
+  padding: 20px;
+}
+
+.single-group-class-timings > h3 {
+  border-bottom: 4px solid white;
+  padding-bottom: 35px;
+  margin-bottom: 20px;
+}
+
+.timing {
+  display: flex;
+}
+
+.timing > i {
+  padding: 20px 10px 20px 0px;
+}
+
+.single-group-hero-section3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 60px;
+}
+
+.single-group-hero-section3 > .gym-memberships {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.membership {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 390px;
+}
+
+.single-group-hero-section4 {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 80px 0px;
+}
+
+.single-group-hero-section4 > .instructor-img {
+  padding: 20px;
+}
+
+.single-group-hero-section4 > .instructor-info {
+  width: 585px;
+  height: max-content;
+  padding: 20px;
+}

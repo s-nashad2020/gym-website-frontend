@@ -1,0 +1,216 @@
+.groups-hero-section {
+  background-image: url("/img/hero-image3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+
+.groups-hero-section h1 {
+  color: white;
+}
+
+.groups-hero-section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.session {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 665px;
+  width: 100%;
+}
+
+.groups-hero-section1 > .session:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.training-img {
+  height: 550px;
+  width: 550px;
+  padding: 20px;
+}
+
+.training-desc {
+  height: 550px;
+  width: 500px;
+  padding: 40px;
+}
+
+.training-desc h2 {
+  padding-bottom: 25px;
+  border-bottom: 4px solid var(--nv-dark-bg);
+}
+
+.timings {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 0px;
+}
+
+.timings > * {
+  padding-right: 10px;
+}
+
+.timings > p {
+  padding-right: 20px;
+}
+
+.groups-hero-section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--nv-dark-bg);
+  color: var(--nv-text-dark-bg);
+  padding: 40px;
+}
+
+.trainers {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  width: 390px;
+  height: 675px;
+}
+
+.trainer p {
+  text-align: center;
+}
+
+.trainer span > * {
+  padding: 5px;
+}
+
+.groups-hero-section3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: max-content;
+  padding: 50px;
+}
+
+.training-days {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.day {
+  width: 340px;
+  height: 370px;
+  padding: 20px;
+}
+
+.day > h3 {
+  border-bottom: 4px solid var(--nv-dark-bg);
+  padding-bottom: 40px;
+}
+
+.day > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.day > ul > li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.day i {
+  margin-right: 10px;
+}
+
+.groups-hero-section4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 390px;
+  background-image: url("/img/background-image1.jpg");
+  background-size: cover;
+}
+
+.groups-hero-content1 {
+  width: 550px;
+  height: 230px;
+  background-color: var(--nv-light-bg);
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.groups-hero-content1 h2,
+.groups-hero-content1 p {
+  margin: 0px;
+  padding: 20px 20px 0px 20px;
+}
+
+.groups-hero-content1.hero-btn1 {
+  margin-top: 0px;
+}
+
+.groups-hero-content2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 550px;
+  height: 230px;
+  background-color: var(--nv-dark-bg);
+}
+
+.groups-hero-section5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+  width: 100%;
+  height: max-content;
+}
+
+.dropdown-menu {
+  height: max-content;
+  width: 760px;
+}
+
+.dropdown:last-child {
+  border-bottom: 1px solid var(--nv-text-color);
+}
+
+.dropdown {
+  border: 1px solid var(--nv-text-color);
+  border-bottom: none;
+  padding: 18px 24px;
+}
+
+.groups-hero-section5 > details summary {
+  cursor: pointer;
+}
+
+summary > * {
+  display: inline;
+}
